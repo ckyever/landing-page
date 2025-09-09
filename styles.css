@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
@@ -130,6 +130,10 @@ footer {
   color: var(--secondary-text-color);
 }
 
+.email {
+  color: var(--dark-background-color);
+}
+
 .gallery {
   display: flex;
   flex-direction: column;
@@ -148,6 +152,10 @@ footer {
   border: 4px solid var(--accent-background-color);
   border-radius: 10px;
   width: 160px;
+}
+
+.name {
+  font-weight: 700;
 }
 
 .quote {
