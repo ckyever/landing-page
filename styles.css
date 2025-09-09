@@ -8,7 +8,8 @@
 
 body {
   background-color: var(--dark-background-color);
-  margin: 0;
+  margin: 0 auto;
+  width: 80%;
   font-family: "Roboto", sans-serif;
 }
 
