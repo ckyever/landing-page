@@ -47,8 +47,33 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
 .logo {
   margin: 0;
   font-size: 24px;
   font-weight: bold;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  color: var(--main-text-color);
+  font-size: 18px;
+}
+
+.banner-left, .banner-right {
+  flex-basis: 50%;
+}
+
+.banner-right {
+  /* CKYTODO: Remove all below placeholder styling once image added */
+  display: flex;
+  height: 200px;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
 }
