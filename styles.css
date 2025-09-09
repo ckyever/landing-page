@@ -101,9 +101,7 @@ footer {
 }
 
 .logo {
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
+  width: 100px;
 }
 
 .banner {
