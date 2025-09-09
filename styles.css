@@ -13,7 +13,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
   margin: 0;
-  padding 0;
+  padding: 0;
 }
 
 body {
@@ -50,6 +50,12 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  color: var(--dark-background-color);
+  font-size: 36px;
+  font-weight: 900;
+}
+
 button {
   background-color: var(--action-call-color);
   border: none;
@@ -58,6 +64,20 @@ button {
   color: var(--main-text-color);
   width: 100px;
   font-weight: 600;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 175px;
+}
+
+figcaption {
+  color: var(--dark-background-color);
+  text-align: center;
+  font-size: 18px;
+  margin-top: 4px;
 }
 
 .header-container {
@@ -106,14 +126,18 @@ button {
   flex-direction: column;
   align-items: center;
   background-color: white;
+  padding: 24px;
 }
 
 .pictures {
   display: flex;
+  gap: 48px;
+  margin: 24px;
 }
 
 .pictures img {
-  border: 2px solid var(--action-call-color);
+  border: 3px solid var(--action-call-color);
+  border-radius: 10px;
 }
 
 .quote {
