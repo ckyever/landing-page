@@ -114,8 +114,6 @@ button {
 
 .pictures img {
   border: 2px solid var(--action-call-color);
-  width: 80px;
-  height: 80px;
 }
 
 .quote {
