@@ -156,6 +156,8 @@ footer {
 
 .quote {
   background-color: var(--secondary-text-color);
+  display: flex;
+  justify-content: center;
 }
 
 .quote-container {
@@ -164,6 +166,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 120px 300px;
+  max-width: 1400px;
 }
 
 .author {
@@ -173,6 +176,8 @@ footer {
 }
 
 .action {
+  display: flex;
+  justify-content: center;
   background-color: var(--main-text-color);
   padding: 80px;
   color: var(--main-text-color);
@@ -185,6 +190,7 @@ footer {
   background-color: var(--action-call-color);
   border-radius: 8px;
   padding: 40px;
+  min-width: 1200px;
 }
 
 .action-title {
