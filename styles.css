@@ -121,13 +121,8 @@ footer {
   flex-basis: 50%;
 }
 
-.banner-right {
-  /* CKYTODO: Remove all below placeholder styling once image added */
-  display: flex;
-  height: 200px;
-  background-color: grey;
-  justify-content: center;
-  align-items: center;
+.academy {
+  width: 400px;
 }
 
 .about {
