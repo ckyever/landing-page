@@ -3,7 +3,6 @@
   --main-text-color: #F9FAF8;
   --secondary-text-color: #E5E7EB;
   --action-call-color: #3882F6;
-  --quote-background-color: #E5E7EB;
 }
 
 html {
@@ -141,7 +140,7 @@ figcaption {
 }
 
 .quote {
-  background-color: var(--quote-background-color);
+  background-color: var(--secondary-text-color);
 }
 
 .action {
