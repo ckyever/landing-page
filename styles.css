@@ -48,6 +48,7 @@ a:hover {
 }
 
 h1 {
+  margin: 0;
   font-size: 48px;
   font-weight: 900;
 }
@@ -59,8 +60,10 @@ h1 {
 }
 
 .banner {
+  margin-top: 80px;
   display: flex;
   align-items: center;
+  gap: 24px;
   color: var(--main-text-color);
   font-size: 18px;
 }
