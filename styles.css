@@ -1,3 +1,11 @@
+:root {
+  --dark-background-color: #1F2937;
+  --main-text-color: #F9FAF8;
+  --secondary-text-color: #E5E7EB;
+  --action-call-color: #3882F6;
+  --quote-background-color: #E5E7EB;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
