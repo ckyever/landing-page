@@ -55,17 +55,6 @@ h2 {
   font-weight: 900;
 }
 
-button {
-  background-color: var(--accent-background-color);
-  border: none;
-  border-radius: 8px;
-  padding: 8px;
-  color: var(--dark-background-color);
-  width: 124px;
-  font-weight: 600;
-  font-size: 18px;
-}
-
 figure {
   display: flex;
   flex-direction: column;
@@ -131,7 +120,17 @@ footer {
 }
 
 .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-background-color);
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
   color: var(--dark-background-color);
+  width: 124px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .gallery {
@@ -202,6 +201,6 @@ footer {
   font-size: 24px;
 }
 
-.action button {
+.action .email {
   border: 2px solid var(--main-text-color);
 }
