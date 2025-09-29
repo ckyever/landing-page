@@ -1,5 +1,5 @@
 # Landing Page
-A landing page for a fictional tennis club with HTML5, CSS3, and JavaScript (ES6+).
+A landing page for a fictional tennis club with HTML5 and CSS3.
 
 👉 [Live Demo](https://ckyever.github.io/landing-page/)
 
